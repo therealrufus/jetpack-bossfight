@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     public float speed;
     public float jetSpeed;
-    public int maxFuel = 300;
-    public int fuel = 300;
+    public int maxFuel;
+    public int fuel;
     public float gravity = 10f;
 
     Vector2 movement = new Vector2();
