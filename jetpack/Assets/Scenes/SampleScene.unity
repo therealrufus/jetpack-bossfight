@@ -363,7 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 200
   jetSpeed: 10
-  maxFuel: 300
+  maxFuel: 100
   fuel: 100
   gravity: 200
 --- !u!50 &398498606
