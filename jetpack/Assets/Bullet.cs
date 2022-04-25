@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed;
     Vector2 direction;
-    public GameObject gun;
+    public Transform gun;
     Rigidbody2D rb;
     void Start()
     {
