@@ -43,25 +43,25 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow))
         {            
             gun.transform.rotation = Quaternion.Euler(new Vector3(0, 00, -90));
-            gun.transform.localPosition = new Vector3(0.512f, -0.111f, 0f);
+            gun.transform.localPosition = new Vector3(0.512f, -0.111f, -2f);
         }
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
             gun.transform.rotation = Quaternion.Euler(new Vector3(0, 00, 90));
-            gun.transform.localPosition = new Vector3(0.8f, 0.128f, 0f);
+            gun.transform.localPosition = new Vector3(0.8f, -0.2f, -2f);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             gun.transform.rotation = Quaternion.Euler(new Vector3(0, 00, -180));
-            gun.transform.localPosition = new Vector3(0.512f, -0.111f, 0f);
+            gun.transform.localPosition = new Vector3(0.4f, -0.3f, -2f);
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
             gun.transform.rotation = Quaternion.Euler(new Vector3(0, 00, 0));
-            gun.transform.localPosition = new Vector3(0.8f, 0.128f, 0f);
+            gun.transform.localPosition = new Vector3(0.5f, -0.2f, -2f);
         }
 
         movement = new Vector2(speed * inputX * Time.deltaTime, inputY);
