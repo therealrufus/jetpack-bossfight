@@ -10,22 +10,18 @@ public class PlayerController : MonoBehaviour
     public int maxFuel;
     public int fuel;
     public float gravity = 10f;
-    public GameObject gun;
-    public Transform playerSprite;
 
     Vector2 movement = new Vector2();
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
     }
 
     void FixedUpdate()
     {
         float inputX = Input.GetAxis("Horizontal");
         float inputY;
-
         if (Input.GetKey(KeyCode.Space) && fuel > 0)
         {
             fuel--;
@@ -33,38 +29,14 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            inputY = -gravity * Time.deltaTime;
+            inputY = -gravity*Time.deltaTime;
             if (fuel < maxFuel)
             {
                 fuel++;
             }
         }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {            
-            gun.transform.rotation = Quaternion.Euler(new Vector3(0, 00, -90));
-            gun.transform.localPosition = new Vector3(0.512f, -0.111f, -2f);
-        }
-
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            gun.transform.rotation = Quaternion.Euler(new Vector3(0, 00, 90));
-            gun.transform.localPosition = new Vector3(0.8f, -0.2f, -2f);
-        }
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            gun.transform.rotation = Quaternion.Euler(new Vector3(0, 00, -180));
-            gun.transform.localPosition = new Vector3(0.4f, -0.3f, -2f);
-        }
-
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            gun.transform.rotation = Quaternion.Euler(new Vector3(0, 00, 0));
-            gun.transform.localPosition = new Vector3(0.5f, -0.2f, -2f);
-        }
-
         movement = new Vector2(speed * inputX * Time.deltaTime, inputY);
+
         rb.AddForce(movement);
     }
 }

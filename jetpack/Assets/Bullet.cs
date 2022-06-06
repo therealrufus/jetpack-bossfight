@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed;
     Vector2 direction;
-    public Transform gun;
+    public GameObject gun;
     Rigidbody2D rb;
     void Start()
     {
@@ -16,10 +16,5 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         rb.AddForce(speed * transform.right * Time.deltaTime);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Destroy(gameObject);
     }
 }
