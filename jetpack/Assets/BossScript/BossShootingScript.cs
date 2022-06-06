@@ -16,7 +16,7 @@ public class BossShootingScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Fire()
+    public void Fire()
     {
         for (int i = 0; i <= 1; i++)
         {

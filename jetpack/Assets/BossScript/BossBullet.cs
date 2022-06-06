@@ -7,6 +7,8 @@ public class BossBullet : MonoBehaviour
     private Vector2 moveDirection;
     private float moveSpeed = 10f;
 
+    private BulletPool boss;
+
     private void OnEnable()
     {
         Invoke("Destroy", 3f);
@@ -30,5 +32,14 @@ public class BossBullet : MonoBehaviour
     private void OnDisable()
     {
         CancelInvoke();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 7)
+        {
+            Debug.Log("Player Hit");
+            Destroy();
+        }
     }
 }
