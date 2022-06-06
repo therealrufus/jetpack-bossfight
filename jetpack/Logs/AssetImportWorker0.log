@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.1.0b6\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack
+C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack-bossfight/jetpack
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65019
-Successfully changed project path to: C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack
-C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack
+65156
+Successfully changed project path to: C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack-bossfight/jetpack
+C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack-bossfight/jetpack
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 110.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 120.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.0b6 (0c945167f89c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.0b6/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack/Assets
+[Subsystems] Discovering subsystems at path C:/Users/broz.fi.2019/Documents/GitHub/jetpack-bossfight/jetpack-bossfight/jetpack/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,40 +63,40 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b6/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b6/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b6/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.0b6/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004104 seconds.
+Registered in 0.003701 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 104.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.607 seconds
 Domain Reload Profiling:
 	ReloadAssembly (608ms)
-		BeginReloadAssembly (65ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (475ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (466ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
-				TypeCache.Initialize (103ms)
-					TypeCache.ScanAssembly (102ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (102ms)
+				TypeCache.Initialize (102ms)
+					TypeCache.ScanAssembly (101ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (295ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (108ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadAttributes (124ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -104,54 +104,54 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005107 seconds.
+Registered in 0.005234 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.56 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 108.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.664 seconds
+- Completed reload, in  1.420 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1664ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1421ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1478ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (1232ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-				TypeCache.Initialize (249ms)
-					TypeCache.ScanAssembly (245ms)
+			SetupTypeCache (268ms)
+				TypeCache.Initialize (258ms)
+					TypeCache.ScanAssembly (254ms)
 				ResolveRequiredComponents (11ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1036ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (775ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (731ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (355.3 KB). Loaded Objects now: 5881.
+Unloading 5424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (348.1 KB). Loaded Objects now: 5879.
 Memory consumption went from 0.84 GB to 0.84 GB.
-Total: 4.030000 ms (FindLiveObjects: 0.430200 ms CreateObjectMapping: 0.549700 ms MarkObjects: 2.931300 ms  DeleteObjects: 0.117900 ms)
+Total: 4.023200 ms (FindLiveObjects: 0.400700 ms CreateObjectMapping: 0.371300 ms MarkObjects: 3.125100 ms  DeleteObjects: 0.125300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,76 +165,112 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4961.786623 seconds.
-  path: Assets/Scenes/final_backup.unity
-  artifactKey: Guid(4feb524cd2294e942b15a45ebd4a9bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/final_backup.unity using Guid(4feb524cd2294e942b15a45ebd4a9bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f6fae86eb294daadd0aad0fec58cc3') in 0.015305 seconds 
+  Time since last request: 5491.965640 seconds.
+  path: Assets/BossScript/familyfriendlyboss.png
+  artifactKey: Guid(667bbb36a3e5ae74f960d47d8cf9609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossScript/familyfriendlyboss.png using Guid(667bbb36a3e5ae74f960d47d8cf9609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98433316f59d20c0d8c4cc89171d975') in 0.101077 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.040474 seconds.
+  Time since last request: 0.000015 seconds.
   path: Assets/BossScript/HPBar.png
   artifactKey: Guid(25d3b19f868b5034ab321d2aa179ea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossScript/HPBar.png using Guid(25d3b19f868b5034ab321d2aa179ea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ae59bcd329b832a6043233b37114e9') in 0.079354 seconds 
+Start importing Assets/BossScript/HPBar.png using Guid(25d3b19f868b5034ab321d2aa179ea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ae59bcd329b832a6043233b37114e9') in 0.012368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BossScript/boss 1.prefab
+  artifactKey: Guid(ac0232fe89fd77e449a1851534dad197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossScript/boss 1.prefab using Guid(ac0232fe89fd77e449a1851534dad197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2fc74509912edd5fa7bcc13a76f351') in 0.144981 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
   path: Assets/BossScript/HPLogo.png
   artifactKey: Guid(611d33925b42af445afda3b87d975875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossScript/HPLogo.png using Guid(611d33925b42af445afda3b87d975875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91afd179e250fbe2ef56d3e8e5e9ddc5') in 0.013621 seconds 
+Start importing Assets/BossScript/HPLogo.png using Guid(611d33925b42af445afda3b87d975875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91afd179e250fbe2ef56d3e8e5e9ddc5') in 0.010376 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.334320 seconds.
-  path: Assets/BossScript/BossHealth.cs
-  artifactKey: Guid(efb7c70f22e2eb645b05dae70acd6f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossScript/BossHealth.cs using Guid(efb7c70f22e2eb645b05dae70acd6f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d17148acd509c6e2dd44ff4f544e952') in 0.005213 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/BossScript/HealthBar.prefab
+  artifactKey: Guid(f0a67bf2014488d4990122d4a402baa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossScript/HealthBar.prefab using Guid(f0a67bf2014488d4990122d4a402baa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2828580f09daef037da88b056a8ad3a1') in 0.009191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BossScript/boss.prefab
+  artifactKey: Guid(7577e71e4a94ee24ba634dc5041d9b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossScript/boss.prefab using Guid(7577e71e4a94ee24ba634dc5041d9b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c581debc9cbacd9c4ca960b1dc45cf') in 0.004877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BossScript/familyfriendlyboss_white.png
+  artifactKey: Guid(0ff8dc16c32ffd048b1afa3978428afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossScript/familyfriendlyboss_white.png using Guid(0ff8dc16c32ffd048b1afa3978428afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e3cccf6261de6dccd3d4247a9cd4e2') in 0.018512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/player 1 Variant.prefab
+  artifactKey: Guid(c9c415ee5b9b0ae409d8be94ddd4ff0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player 1 Variant.prefab using Guid(c9c415ee5b9b0ae409d8be94ddd4ff0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39ac7c83183f44356ab22cb8d78de27') in 0.011115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(ae89baf2cbd2e1c4f86fc9262ac96419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(ae89baf2cbd2e1c4f86fc9262ac96419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8efe2976124f3f1282fe55549bb9e57') in 0.003936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.731673 seconds.
+  path: Assets/Scenes/final_backup.unity
+  artifactKey: Guid(4feb524cd2294e942b15a45ebd4a9bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final_backup.unity using Guid(4feb524cd2294e942b15a45ebd4a9bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bacceb109d512a315993e73ff16d4a') in 0.002938 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004979 seconds.
+Registered in 0.005409 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
+- Completed reload, in  1.274 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1179ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (964ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-				TypeCache.Initialize (272ms)
-					TypeCache.ScanAssembly (267ms)
-				ResolveRequiredComponents (12ms)
+			SetupTypeCache (292ms)
+				TypeCache.Initialize (279ms)
+					TypeCache.ScanAssembly (273ms)
+				ResolveRequiredComponents (13ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (476ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (546ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (310ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5284 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (310.4 KB). Loaded Objects now: 5920.
+Unloading 5286 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (309.8 KB). Loaded Objects now: 5996.
 Memory consumption went from 0.82 GB to 0.82 GB.
-Total: 4.079200 ms (FindLiveObjects: 0.354200 ms CreateObjectMapping: 0.295500 ms MarkObjects: 3.366100 ms  DeleteObjects: 0.062300 ms)
+Total: 3.870600 ms (FindLiveObjects: 0.396700 ms CreateObjectMapping: 0.427800 ms MarkObjects: 2.978800 ms  DeleteObjects: 0.066400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -248,13 +284,446 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.854536 seconds.
-  path: Assets/BossScript/boss 1.prefab
-  artifactKey: Guid(ac0232fe89fd77e449a1851534dad197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossScript/boss 1.prefab using Guid(ac0232fe89fd77e449a1851534dad197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2fc74509912edd5fa7bcc13a76f351') in 0.174664 seconds 
+  Time since last request: 31.593210 seconds.
+  path: Assets/Assets/bullet.png
+  artifactKey: Guid(d8b02e2d86e62314d8b20a32b516854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/bullet.png using Guid(d8b02e2d86e62314d8b20a32b516854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b1003b98924a3859cca2006641c857') in 0.048637 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BossScript/boss.prefab
-  artifactKey: Guid(7577e71e4a94ee24ba634dc5041d9b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossScript/boss.prefab using Guid(7577e71e4a94ee24ba634dc5041d9b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c581debc9cbacd9c4ca960b1dc45cf') in 0.005801 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/pxArt.png
+  artifactKey: Guid(023beefcef298f24fb585cb966d54f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/pxArt.png using Guid(023beefcef298f24fb585cb966d54f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92caf1d2ab9539542f1c1bd4b9e607b') in 0.037101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/gun2.png
+  artifactKey: Guid(61c542f9bdc04344987511d1ae5eb146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/gun2.png using Guid(61c542f9bdc04344987511d1ae5eb146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668d1fc9ded927517dd972f73c7c8c1f') in 0.013945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/gun.png
+  artifactKey: Guid(0e44cc868a080b842b1b20c469731bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/gun.png using Guid(0e44cc868a080b842b1b20c469731bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a42ca72699f4a059fec8904c209bb8b') in 0.010289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/Gun_BANG.png
+  artifactKey: Guid(fd6b4d86c06ef7e4eaee9e0d647a965e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Gun_BANG.png using Guid(fd6b4d86c06ef7e4eaee9e0d647a965e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d32a24860284424b710312da206256') in 0.010200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/player.png
+  artifactKey: Guid(533cae81ba8b2134eab85f5f49be3edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/player.png using Guid(533cae81ba8b2134eab85f5f49be3edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f828f49832b8812cabd7502c144013eb') in 0.014146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/player 1.prefab
+  artifactKey: Guid(e238f05fcaa055641a9a6dc1ac60261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/player 1.prefab using Guid(e238f05fcaa055641a9a6dc1ac60261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17833e03c3bd712766809a4e62129a6') in 0.127453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Player (1).png
+  artifactKey: Guid(308d80afea48dc7419c79a39dbf5a5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Player (1).png using Guid(308d80afea48dc7419c79a39dbf5a5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1bf9c64c18e4e4f1157d5495bf4f34') in 0.012076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/bullet.prefab
+  artifactKey: Guid(2f1e989f6e9552c47886e57291e3d89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/bullet.prefab using Guid(2f1e989f6e9552c47886e57291e3d89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744403e59a6fda955b70cc9c42fb6626') in 0.008296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Gun_hands.png
+  artifactKey: Guid(bed5364ebbabfc74c81ef864a3b50e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Gun_hands.png using Guid(bed5364ebbabfc74c81ef864a3b50e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ee1153dd158e360b41ea39d8c7e2b5') in 0.011385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207752 seconds.
+  path: Assets/Assets/Warped Caves
+  artifactKey: Guid(1040bc00734fcfb42b3f55183552be9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Warped Caves using Guid(1040bc00734fcfb42b3f55183552be9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6f8b27fe6dba8d2ae6d8240bc63b2b') in 0.001654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.758220 seconds.
+  path: Assets/Assets/Warped Caves/Artwork
+  artifactKey: Guid(b938a8bf4e83049c399e141cb70dbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Warped Caves/Artwork using Guid(b938a8bf4e83049c399e141cb70dbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f655e968e0b6a3613baf4a2685968e') in 0.001516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.629212 seconds.
+  path: Assets/Assets/Warped Caves/Artwork/Sprites
+  artifactKey: Guid(246d35eb3ae0a4a1dbb289c2b7543cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Warped Caves/Artwork/Sprites using Guid(246d35eb3ae0a4a1dbb289c2b7543cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43f70219044d1b09c9ec6cbcef4f46b') in 0.001593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.511850 seconds.
+  path: Assets/Assets/Warped Caves/Artwork/Sprites/Fx
+  artifactKey: Guid(494528a1b3894449db1e40a654ee8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Warped Caves/Artwork/Sprites/Fx using Guid(494528a1b3894449db1e40a654ee8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07d960d64a2442b4caa079378665e91') in 0.002581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.501424 seconds.
+  path: Assets/Assets/Warped Caves/Artwork/Sprites/Fx/shot
+  artifactKey: Guid(57cf40901435c4cc4a567f7165f27b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Warped Caves/Artwork/Sprites/Fx/shot using Guid(57cf40901435c4cc4a567f7165f27b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4b7c73174bd6d7246cf4a3ddd4369a') in 0.001572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024335 seconds.
+  path: Assets/Assets/Warped Caves/Artwork/Sprites/Fx/shot/Bullet.prefab
+  artifactKey: Guid(7dde1692311b70442996e3830a90198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Warped Caves/Artwork/Sprites/Fx/shot/Bullet.prefab using Guid(7dde1692311b70442996e3830a90198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f82220a7b4c900757ee469ce1ffeb28') in 0.008022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Warped Caves/Artwork/Sprites/Fx/shot/shot-2.png
+  artifactKey: Guid(f4e17262a295e454a82ad31f72df4882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Warped Caves/Artwork/Sprites/Fx/shot/shot-2.png using Guid(f4e17262a295e454a82ad31f72df4882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755fccf5890d41deff1b63ab5ece4210') in 0.010474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Warped Caves/Artwork/Sprites/Fx/shot/shot-1.png
+  artifactKey: Guid(6b777624f1ead4ffaa0034c42e5d25e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Warped Caves/Artwork/Sprites/Fx/shot/shot-1.png using Guid(6b777624f1ead4ffaa0034c42e5d25e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b602aa6fd325b9ec24a610e6eabd40') in 0.009642 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004862 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+				TypeCache.Initialize (273ms)
+					TypeCache.ScanAssembly (268ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5296 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (309.9 KB). Loaded Objects now: 6199.
+Memory consumption went from 0.83 GB to 0.83 GB.
+Total: 4.027000 ms (FindLiveObjects: 0.414500 ms CreateObjectMapping: 0.339800 ms MarkObjects: 3.207400 ms  DeleteObjects: 0.064400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004847 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+				TypeCache.Initialize (279ms)
+					TypeCache.ScanAssembly (274ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (309.9 KB). Loaded Objects now: 6203.
+Memory consumption went from 0.83 GB to 0.83 GB.
+Total: 3.907200 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.308300 ms MarkObjects: 3.157800 ms  DeleteObjects: 0.060500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1258ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1055ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+				TypeCache.Initialize (260ms)
+					TypeCache.ScanAssembly (255ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (309.9 KB). Loaded Objects now: 6206.
+Memory consumption went from 0.83 GB to 0.83 GB.
+Total: 4.509400 ms (FindLiveObjects: 0.451000 ms CreateObjectMapping: 0.352100 ms MarkObjects: 3.589000 ms  DeleteObjects: 0.116000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136.143030 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(ee72db8c5f75f8f40b626de74931d7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(ee72db8c5f75f8f40b626de74931d7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091d3e176e22285f7a5d1f852ea07eea') in 0.008815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.465393 seconds.
+  path: Assets/BossScript/HealthBar.prefab
+  artifactKey: Guid(f0a67bf2014488d4990122d4a402baa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossScript/HealthBar.prefab using Guid(f0a67bf2014488d4990122d4a402baa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55b6d048b696a5bec007a0bee066c96') in 0.029786 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1241ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+				TypeCache.Initialize (258ms)
+					TypeCache.ScanAssembly (252ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (310.0 KB). Loaded Objects now: 6209.
+Memory consumption went from 0.83 GB to 0.83 GB.
+Total: 4.008600 ms (FindLiveObjects: 0.423400 ms CreateObjectMapping: 0.353200 ms MarkObjects: 3.162200 ms  DeleteObjects: 0.068700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005196 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\broz.fi.2019\Documents\GitHub\jetpack-bossfight\jetpack-bossfight\jetpack\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1323ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1122ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+				TypeCache.Initialize (270ms)
+					TypeCache.ScanAssembly (265ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (309.9 KB). Loaded Objects now: 6212.
+Memory consumption went from 0.83 GB to 0.83 GB.
+Total: 3.675600 ms (FindLiveObjects: 0.415800 ms CreateObjectMapping: 0.412200 ms MarkObjects: 2.779800 ms  DeleteObjects: 0.066900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.738907 seconds.
+  path: Assets/Scenes/final_backup.unity
+  artifactKey: Guid(4feb524cd2294e942b15a45ebd4a9bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final_backup.unity using Guid(4feb524cd2294e942b15a45ebd4a9bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2964dc31a1e665d867d5584c5a50a9ce') in 0.018787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.295205 seconds.
+  path: Assets/Scenes/final_backup 1.unity
+  artifactKey: Guid(3b19cb8b1ee080e45bc8ecfffcbf5a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final_backup 1.unity using Guid(3b19cb8b1ee080e45bc8ecfffcbf5a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe515757ee42c4238367bd0294341f5') in 0.002485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.093458 seconds.
+  path: Assets/Scenes/boss_test.unity
+  artifactKey: Guid(3b19cb8b1ee080e45bc8ecfffcbf5a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/boss_test.unity using Guid(3b19cb8b1ee080e45bc8ecfffcbf5a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b61afab54c64801ebd5ebc42cce3d5') in 0.002083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.571973 seconds.
+  path: Assets/Scenes/final_backup 1.unity
+  artifactKey: Guid(7634c5a128c3acc40bba650dd75bf8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final_backup 1.unity using Guid(7634c5a128c3acc40bba650dd75bf8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a7448c79460dfe0550b35bfcd52934') in 0.001658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.030983 seconds.
+  path: Assets/Scenes/player hitbox.unity
+  artifactKey: Guid(7634c5a128c3acc40bba650dd75bf8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/player hitbox.unity using Guid(7634c5a128c3acc40bba650dd75bf8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b934dc8c45a7b56a7e133651028a0c34') in 0.002302 seconds 
