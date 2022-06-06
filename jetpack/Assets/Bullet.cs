@@ -18,8 +18,13 @@ public class Bullet : MonoBehaviour
         rb.AddForce(speed * transform.right * Time.deltaTime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        Destroy(gameObject);
+        collision.GetComponent<BossHealth>().TakeDamage(10);
     }
 }
