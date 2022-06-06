@@ -70,7 +70,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3214383605170090848}
   - component: {fileID: 3214383605170090849}
-  - component: {fileID: 3214383605170090850}
   - component: {fileID: 3214383605170090851}
   m_Layer: 0
   m_Name: boss 1
@@ -96,7 +95,7 @@ Transform:
   - {fileID: 5128753924430817115}
   - {fileID: 5128753924775345677}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3214383605170090849
 SpriteRenderer:
@@ -150,21 +149,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3214383605170090850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3214383605170090876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efb7c70f22e2eb645b05dae70acd6f54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  healthBar: {fileID: 3214383605170090851}
 --- !u!114 &3214383605170090851
 MonoBehaviour:
   m_ObjectHideFlags: 0
