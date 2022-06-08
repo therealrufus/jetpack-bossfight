@@ -12,7 +12,7 @@ public class BossShootingScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Fire", 0f, ShootRepeat);
+        InvokeRepeating("Fire", 5f, ShootRepeat);
     }
 
     // Update is called once per frame
