@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    private int startHealth = 0;
+    public int startHit = 0;
 
     public Image[] hearts;
 
@@ -17,19 +17,29 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void TakeDamage()
+    public void TakeDamage(bool isTakeDamage)
     {
-        if (startHealth >= 5)
+        if (startHit >= 5)
         {
             for (int i = 0; i < hearts.Length; i++)
             {
                 hearts[i].enabled = false;
             }
-            startHealth = 0;
+            startHit = 0;
         }
 
-        Debug.Log("Player took damage!");
-        hearts[startHealth].enabled = true;
-        startHealth++;
+        if (isTakeDamage)
+        {
+            hearts[startHit].enabled = true;
+            startHit++;
+        }
+        else
+        {
+            if (startHit > 0)
+            {
+                hearts[startHit - 1].enabled = false;
+                startHit--;
+            }
+        }
     }
 }
