@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -12,7 +13,6 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
-        hitsound = GetComponent<AudioSource>();
         for (int i = 0; i < hearts.Length; i++)
         {
             hearts[i].enabled = false;
@@ -23,25 +23,22 @@ public class PlayerHealth : MonoBehaviour
     {
         strobe();
         Invoke("unstrobe", 0.1f);
-        hitsound.Play();
-
-        if (startHit >= 5)
-        {
-            for (int i = 0; i < hearts.Length; i++)
-            {
-                hearts[i].enabled = false;
-            }
-            startHit = 0;
-        }
 
         if (isTakeDamage)
         {
-            hearts[startHit].enabled = true;
-            startHit++;
+            if (startHit < 5)
+            {
+                hearts[startHit].enabled = true;
+                startHit++;
+            }
+            else
+            {
+                SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+            }
         }
         else
         {
-            if (startHit > 0)
+            if (startHit >= 0 && hearts[0].enabled)
             {
                 hearts[startHit - 1].enabled = false;
                 startHit--;
@@ -56,6 +53,14 @@ public class PlayerHealth : MonoBehaviour
 
     void unstrobe()
     {
-        whiteFlash.color = new Color(1f, 1f, 1f, 0f);
+        whiteFlash.color = new Color(1f, 1f, 1f, 1f);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "bullet")
+        {
+            hitsound.Play();
+        }
     }
 }

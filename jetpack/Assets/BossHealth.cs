@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
@@ -20,9 +21,9 @@ public class BossHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (currentHealth <= 0)
         {
-            TakeDamage(10);            
+            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
         }
     }
 
@@ -50,13 +51,5 @@ public class BossHealth : MonoBehaviour
         {
             TakeDamage(10);
         }
-
-    }
-
-    void OnTriggerEnter2D(Collider2D trigger)
-    {
-
-        TakeDamage(10);
-
     }
 }

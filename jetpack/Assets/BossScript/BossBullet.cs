@@ -37,8 +37,8 @@ public class BossBullet : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Destroy();
             collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(true);
+            Destroy();
         }
     }
 }
