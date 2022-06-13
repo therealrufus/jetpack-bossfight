@@ -67,6 +67,7 @@
     <Compile Include="Assets\PresikHitbox.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\BossHealth.cs" />
+    <Compile Include="Assets\laserGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
