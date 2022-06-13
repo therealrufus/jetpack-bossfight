@@ -123,24 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &144544932 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7703152280056431036, guid: bfdabbea274fbfa4bb24862a094081d9, type: 3}
-  m_PrefabInstance: {fileID: 1727388234}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &144544935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144544932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4723e985dec5a4e990572fb12c5726, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animation: {fileID: 0}
 --- !u!114 &347818892 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1136022464, guid: f0a67bf2014488d4990122d4a402baa6, type: 3}
@@ -5521,6 +5503,7 @@ GameObject:
   - component: {fileID: 1744859491}
   - component: {fileID: 1744859490}
   - component: {fileID: 1744859489}
+  - component: {fileID: 1744859492}
   m_Layer: 0
   m_Name: laser
   m_TagString: Untagged
@@ -5615,6 +5598,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &1744859492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744859488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4723e985dec5a4e990572fb12c5726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1768731348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5968,6 +5963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHit: 0
+  hitsound: {fileID: 0}
   hearts:
   - {fileID: 1971067762}
   - {fileID: 449504831}
