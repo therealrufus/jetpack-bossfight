@@ -15,8 +15,7 @@ public class LifePickUp : MonoBehaviour
 
     void SpawnLife()
     {
-        Debug.Log("Život spawned");
-        Vector3 randomSpawnPosition = new Vector3(Random.Range(-8, 9), Random.Range(-4, 3));
-        Instantiate(presik, randomSpawnPosition, Quaternion.identity);
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(-8, 9), Random.Range(-4, 3));
+            Instantiate(presik, randomSpawnPosition, Quaternion.identity);
     }
 }

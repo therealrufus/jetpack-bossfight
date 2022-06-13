@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class laserGenerator : MonoBehaviour
 {
-    public Animation animation;
-
-    // Start is called before the first frame update
+    private Animator animator;
     void Start()
     {
-        
+        animator = gameObject.GetComponent<Animator>();
     }
 
-    void LaserSpawn()
+    // Update is called once per frame
+    void Update()
     {
-
+        if (Input.GetKey(KeyCode.L))
+        {
+            Debug.Log("Animation playing");
+            animator.SetTrigger("Trigger");
+        }
     }
 }
