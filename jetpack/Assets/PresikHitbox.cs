@@ -8,7 +8,7 @@ public class PresikHitbox : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            //collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(false);
+            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(false);
             Destroy(gameObject);
         }
     }
