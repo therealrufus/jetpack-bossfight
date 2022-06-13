@@ -1,3 +1,9 @@
 jetpack/Library
 jetpack/Temp
 jetpack/.vs/jetpack/v16/Server/sqlite3/db.lock
+jetpack/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+*.log
+*.cache
+*.log
+*.log
+*.cache

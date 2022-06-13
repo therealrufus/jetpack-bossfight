@@ -55,10 +55,8 @@ public class BossHealth : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D trigger)
     {
-        Debug.Log(trigger.name);
-        if (trigger.name == "bullet(Clone)")
-        {
-            TakeDamage(10);
-        }        
+
+        TakeDamage(10);
+
     }
 }

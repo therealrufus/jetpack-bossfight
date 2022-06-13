@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public int fuel;
     public float gravity = 10f;
     public GameObject gun;
+    public GameObject jetpackFire;
     public Transform playerSprite;
 
     Vector2 movement = new Vector2();
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        jetpackFire.SetActive(false);
 
     }
 
@@ -28,11 +30,13 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) && fuel > 0)
         {
+            jetpackFire.SetActive(true);
             fuel--;
             inputY = jetSpeed - gravity * Time.deltaTime;
         }
         else
         {
+            jetpackFire.SetActive(false);
             inputY = -gravity * Time.deltaTime;
             if (fuel < maxFuel)
             {
