@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+                //SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
             }
         }
         else
