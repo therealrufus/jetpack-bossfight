@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class laserGenerator : MonoBehaviour
 {
-    private Animator animator;
+    public Animator laserLeft;
+    public Animator laserRight;
     public float startAnimation;
     private float targetTime;
+    public AudioSource laserAudio;
     void Start()
     {
-        animator = gameObject.GetComponent<Animator>();
-        //InvokeRepeating("PlayAnimation", startAnimation, Random.Range(10,20));
-        targetTime = 20;
+        targetTime = startAnimation;
     }
 
     private void Update()
@@ -20,21 +20,27 @@ public class laserGenerator : MonoBehaviour
         if (targetTime <= 0)
         {
             PlayAnimation();
-            targetTime = Random.Range(15, 36);
-            //Debug.Log(targetTime);
+            targetTime = Random.Range(10, 21);
         }
-        Debug.Log(targetTime);
     }
 
     void PlayAnimation()
     {
-        if (Random.value >= 0.5)
+        double value = Random.value;
+        laserAudio.Play();
+
+        if (value >= 0.5)
         {
-            animator.SetTrigger("LaserLeft");
+            laserLeft.SetTrigger("LaserLeft");
+        }
+        else if (value < 0.1)
+        {
+            laserRight.SetTrigger("LaserRight");
+            laserLeft.SetTrigger("LaserLeft");
         }
         else
         {
-            animator.SetTrigger("LaserRight");
+            laserRight.SetTrigger("LaserRight");
         }
     }
 }

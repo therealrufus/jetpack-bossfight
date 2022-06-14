@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossBullet : MonoBehaviour
 {
     private Vector2 moveDirection;
-    private float moveSpeed = 10f;
+    public float moveSpeed = 10f;
 
     private BulletPool boss;
     private void OnEnable()

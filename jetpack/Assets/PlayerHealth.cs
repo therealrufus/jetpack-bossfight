@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int startHit = 0;
     public SpriteRenderer whiteFlash;
     public AudioSource hitsound;
+    public AudioSource presikSound;
     public Image[] hearts;
 
     private void Start()
@@ -21,9 +22,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(bool isTakeDamage)
     {
-        strobe();
-        Invoke("unstrobe", 0.1f);
-
         if (isTakeDamage)
         {
             if (startHit < 5)
@@ -33,7 +31,7 @@ public class PlayerHealth : MonoBehaviour
             }
             else
             {
-                //SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+                SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
             }
         }
         else
@@ -60,7 +58,19 @@ public class PlayerHealth : MonoBehaviour
     {
         if (collision.gameObject.tag == "bullet")
         {
+            strobe();
+            Invoke("unstrobe", 0.1f);
             hitsound.Play();
+        }
+        if (collision.gameObject.tag == "laser")
+        {
+            TakeDamage(true);
+            TakeDamage(true);
+            hitsound.Play();
+        }
+        if (collision.gameObject.tag == "Presik")
+        {
+            presikSound.Play();
         }
     }
 }
